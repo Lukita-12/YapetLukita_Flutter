@@ -1,17 +1,7 @@
 void main() {
   var dataMahasiswa = [
-    {
-      "id" :1,
-      "nama": "Yapet",
-      "kelas":"5V",
-      "nim":21041052
-    },
-    {
-      "id" :2,
-      "nama": "Lukita-Kun",
-      "kelas":"5V",
-      "nim":21041052
-    },
+    {"id": 1, "nama": "Yapet", "kelas": "5V", "nim": 21041052},
+    {"id": 2, "nama": "Lukita-Kun", "kelas": "5V", "nim": 21041052},
   ];
 
   // Array dimulai dari 0,
@@ -24,5 +14,4 @@ void main() {
 
   var namaLukita = dataMahasiswa[1]["nama"].toString();
   var pisah = namaLukita.split("-");
-
 }
