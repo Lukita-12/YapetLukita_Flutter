@@ -18,19 +18,19 @@ void main() {
 
 // Manipuslasi Set
   // Deklarasi
-  var names = <String>{};
+  var name = <String>{};
 
   // Mengisi Set
-  names.add('Yapet');
-  names.add('Lukita');
-  names.add('Cool');
+  name.add('Yapet');
+  name.add('Lukita');
+  name.add('Cool');
 
   // Mencetak
-  print(names);
+  print(name);
 
   // Menghapus
-  names.remove('Yapet');
-  print(names);
+  name.remove('Yapet');
+  print(name);
 
 // Deklarasi Set Secara Langsung
   // Set mendukung deklarasi data secara langsung ketika pembuatan variable.
