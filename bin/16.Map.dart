@@ -35,4 +35,15 @@ void main() {
   // Hapus data
   name.remove('last');
   print(name);
+
+// Deklarasi Map Secara Langsung
+  // Map juga mendukung deklarasi data secara langsung ketika pembuatan variable Map
+  // Ini mempermudah kita ketika membuat Map jika memang datanya sudah siap
+  /* Caranya bisa gunakan perintah :
+  var namaVariable = {
+    key1 : value1,
+    key2: value2,
+    key3: value3,
+    }
+  */
 }
