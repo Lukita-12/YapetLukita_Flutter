@@ -17,4 +17,22 @@ void main() {
   print(person);
   print(product);
   print(address);
+
+// Manipulasi Map
+  // Mengisi data Map
+  var name = <String, String>{};
+  name['first'] = 'Yapet';
+  name['middle'] = 'Luki';
+  name['last'] = 'Cold';
+
+  // Mencetak data
+  print(name['first']); // Satu data
+
+  // Mengganti data
+  name['middle'] = 'Lukita';
+  print(name); // Mencetak semua data
+
+  // Hapus data
+  name.remove('last');
+  print(name);
 }

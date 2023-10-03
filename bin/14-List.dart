@@ -8,8 +8,7 @@ void main() {
 
 // Membuat List
   // Untuk membuat list, kita bisa tentukan tipe datanya, misal : List<TipeData> namaVariable = [];
-  /*
-  Atau bisa menggunakan kata kunci var atau final :
+  /* Atau bisa menggunakan kata kunci var atau final :
   var namaVariable = <TipeData>[];
   final namaVariable = <TipeData>[];
   */
