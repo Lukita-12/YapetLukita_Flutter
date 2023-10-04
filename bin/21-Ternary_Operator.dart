@@ -1,7 +1,9 @@
 void main() {
-// Ternary operator adalah operator sederhana dari if.
-// Terdiri dari kondisi yang dievaluasi.
-// Jika true maka nilai pertama diambil, jika false, maka nilai kedua diambil.
+/*
+Ternary operator adalah operator sederhana dari if.
+Terdiri dari kondisi yang dievaluasi.
+Jika true maka nilai pertama diambil, jika false, maka nilai kedua diambil.
+*/
 
 // Tanpa Ternary Operator
   var nilai = 75;

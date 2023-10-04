@@ -15,8 +15,10 @@ void main() {
   }
 
 // Konversi nullable ke Non nullable
-  // Konversi tipe data non nullable ke nullable, langsung masukkan data nya saja.
-  // Namun kita wajib melakukan null check terlebih dahulu
+  /*
+  Konversi tipe data non nullable ke nullable, langsung masukkan data nya saja.
+  Namun kita wajib melakukan null check terlebih dahulu
+  */
   String name = 'Yapet';
   String? nullableName = name;
 
@@ -26,23 +28,29 @@ void main() {
   }
 
 // Default Value
-  // Jika data konversinya null, kita ganti dengan default value.
-  // Gunakan if else, kita cukup  menggunakan operator ??  (tanda tanya dua kali).
+  /*
+  Jika data konversinya null, kita ganti dengan default value.
+  Gunakan if else, kita cukup  menggunakan operator ??  (tanda tanya dua kali).
+  */
 
   String? guest;
 
   var guestNumber = guest ?? 'Gueast';
 
 // Konversi secara paksa
-  // Karakter ! (tanda seru) setelah nama variable nullable nya, merupakan konversi secara paksa.
-  // Konsekuensinya, jika datanya ternyata null, maka otomatis akan error, jadi gunakan secara bijak.
+  /*
+  Karakter ! (tanda seru) setelah nama variable nullable nya, merupakan konversi secara paksa.
+  Konsekuensinya, jika datanya ternyata null, maka otomatis akan error, jadi gunakan secara bijak.
+  */
   int? nullableNumber01;
   var number = nullableNumber01!; // Konversi secara paksa
 
 // Mengakses Nullable Member
-  // Saat mengakses nullable member, maka secara default ada peringatan untuk melakukan null check.
-  // nullable member bisa diakses secara aman, tanpa konversi, dengan tanda tanya (?).
-  // Konsekuensinya, hasil dari member bisa jadi null kalo datanya ternyata null.
+  /*
+    Saat mengakses nullable member, maka secara default ada peringatan untuk melakukan null check.
+    Nullable member bisa diakses secara aman, tanpa konversi, dengan tanda tanya (?).
+    Konsekuensinya, hasil dari member bisa jadi null kalo datanya ternyata null.
+  */
 
   int? intNumber;
   double? doubleNumber = intNumber?.toDouble();
