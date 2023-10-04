@@ -1,7 +1,9 @@
+// Function
 void sayHello() {
   print('Hello World!');
 }
 
+// Memanggil function
 void main() {
   sayHello();
   sayHello();
