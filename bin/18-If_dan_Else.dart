@@ -11,9 +11,11 @@ void main() {
   }
 
 // Else
-  // Blok if akan dieksekusi ketika kondisi if bernilai true.
-  // Kadang kita ingin melakukan eksekusi program tertentu jika kondisi if bernilai false.
-  // Hal ini bisa dilakukan menggunakan else.
+  /*
+  Blok if akan dieksekusi ketika kondisi if bernilai true.
+  Kadang kita ingin melakukan eksekusi program tertentu jika kondisi if bernilai false.
+  Hal ini bisa dilakukan menggunakan else.
+  */
   var nilai1 = 70;
   var absen1 = 90;
 
