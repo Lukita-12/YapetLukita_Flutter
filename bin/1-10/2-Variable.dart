@@ -55,7 +55,7 @@ void main() {
   const array2 = [1, 2, 3]; // Tidak bisa diubah -->
 
   array1[0] = 5;
-  //array2[0] = 5;
+  // array2[0] = 5;
 
   print(array1);
   print(array2); // --> Tidak bisa diubah
