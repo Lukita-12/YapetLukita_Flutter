@@ -1,3 +1,4 @@
+/*
 // Anonymous Function as Variable
 var upperFunction = (String name) {
   return name.toUpperCase();
@@ -6,7 +7,7 @@ var upperFunction = (String name) {
 var lowerFunction = (String name) => name.toLowerCase();
 
 print(upperFunction('Yapet'));
-print(lowerFunction('Lukita'));
+// print(lowerFunction('Lukita'));
 
 
 // Anonymous Function as Parameter
@@ -21,6 +22,7 @@ void main() {
   });
   sayHello('Yapet Lukita', (String name) => name.toLowerCase());
 }
+*/
 
 /*
   Kebanyakan function biasanya memiliki nama, seperti sayHello(), print() dan  lain-lain.
