@@ -14,6 +14,7 @@ void main() {
   // Mengakses Methode pada class person
   person1.sayHello("Anzu");
 }
+
 /*
 Selain menambahkan field, kita juga bisa menambahkan method ke object.
 Method adalah function yang terdapat di dalam class.
