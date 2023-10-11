@@ -1,6 +1,6 @@
 // Meng-Import dari folder "data" file "category.dart".
 // Dan menggunakan di file ini.
-import 'data/category.dart';
+import 'data/28-category.dart';
 
 void main() {
   var category = Category('1', 'Laptop');
