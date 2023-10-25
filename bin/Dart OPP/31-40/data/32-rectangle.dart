@@ -2,7 +2,8 @@ class Rectangle {
   int _width = 1;
   int _length = 1;
 
-/* Getter and Setter
+// Getter and Setter
+/*
   int get width {
     return _width;
   }
@@ -20,7 +21,8 @@ class Rectangle {
   }
 */
 
-/* Getter dan Setter Expression Body
+// Getter dan Setter Expression Body
+/*
   int get width => _width;
 
   set width(int value) => _width = value;

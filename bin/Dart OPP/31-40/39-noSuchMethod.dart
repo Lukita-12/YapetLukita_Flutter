@@ -1,3 +1,5 @@
+/*
+
 import 'data/39-repository.dart';
 
 // Menggunakan NoSuchMethod
@@ -9,6 +11,8 @@ void main() {
   repository.quantity(10000);
   repository.location('Tamiang Layang');
 }
+
+*/
 
 /* No Such Method
 NoSuchMethod merupakan sebuah method yang terdapat di class Object yang bisa kita override untuk mendeteksi atau bereaksi ketika sebuah method yang tidak ada dipanggil
